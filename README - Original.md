@@ -6,15 +6,7 @@
 
 ***
 
-**Completar o desafio de código "Freelancer"**
-
-##Objetivo
-O desafio era replicar o site do Freelancer (https://blackrockdigital.github.io/startbootstrap-freelancer/#page-top), este será o resultado para alcançar:
-![Freelancer Website](https://github.com/YaOliveira/freelancer/blob/master/docs/fullpage.png)
-
-Para completar este desafio, criei um repositório boilerplate (template inicial) com todos os recursos necessários. Incluindo as imagens, estrutura de pastas e arquivos e a partir disso escrevi meu código.
-
-
+Para completar este desafio, criamos um repositório boilerplate (template inicial) com todos os recursos necessários. Isso inclui imagens, estrutura de pastas e arquivos onde você irá escrever seu código.
 
 ## Fluxo de trabalho
 

@@ -37,6 +37,19 @@ body{
     line-height: 30px;
     
 }
+#welcome{
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#18BC9C;
+    color: #ffffff;
+}
+#imageWelcome{
+    align-items: center;
+}
+h1{
+    size: 95px;
+    line-height: 80px;
+}
 
 li{
     list-style: none;
