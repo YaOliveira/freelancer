@@ -24,6 +24,9 @@
     height: 100vh;
  
 } 
+i{
+    font-size: 30em;
+}
  
 .navbarbg{
     background-color: #2C3E50;
@@ -124,14 +127,35 @@ form{
     font-size: 30px;
     font-weight: 400;
 }
+.form-field{
+    height: 40%;
+    width: 60%;
+    padding: 2%;
+    border: none;
+    border-bottom: 1px solid #2C3E50;
+    
+}
 #formContact{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
+}
+#centerform{
+    display: flex;
+    justify-content: center;
+}
+#centeBtn{
+    justify-content: center;
 }
 #btnSend{
     background-color: #18BC9C;
     font-family: 'Lato', sans-serif;  
+    font-weight: bold;
+    text-align: center;
+    height: 50%;
+    width: 10%;
+    padding: 15px 15px 10px;
 }
 ::-webkit-input-placeholder{
      color:#4C4
