@@ -12,14 +12,15 @@ nav{
 
 body{
     font-family: 'Lato', sans-serif;
-    
+  
 }
 
 .container{
     display: flex;
     flex-basis: auto;
+    justify-content: center;
     
-}
+} 
 
 .container > li {
     flex: 1;
@@ -54,6 +55,22 @@ h1{
 li{
     list-style: none;
 }
+
+#images{
+   flex-flow: row wrap;
+}
+#foot{
+    justify-content: center;
+    align-items: center;
+}
+#copyrightYa{
+    background-color: #1A252F;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+
 
  @import url('https://fonts.googleapis.com/css?family=Montserrat');
  @import url('https://fonts.googleapis.com/css?family=Lato');

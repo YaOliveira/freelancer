@@ -13,22 +13,34 @@
 <body>
   <nav>
     <ul class="container">
-      <li id="menuInicial">START BOOTSTRAP</li>
-      <li class="menuSecundario">PORTFOLIO</li>
-      <li class="menuSecundario">ABOUT</li>
-      <li class="menuSecundario">CONTACT</li>
+      <li id="menuInicial"><a href="#"></a>START BOOTSTRAP</li>
+      <li class="menuSecundario"><a href="#sectionPortfolio"></a>PORTFOLIO</li>
+      <li class="menuSecundario"><a href="#sectionAbout"></a>ABOUT</li>
+      <li class="menuSecundario"><a href="#sectionContact"></a>CONTACT</li>
     </ul>
   </nav>
+  <hr>
   <header class="container" id="welcome">
     <img src="assets/images/profile.png" alt="image welcome" id="imageWelcome"/>
     <h1>START BOOTSTRAP</h1>
     <img src="assets/images/svg/star.svg" alt="star welcome" />
     <h2>Web Developer - Graphic Artist - User Experience Designer</h2>
   </header>
-  <section>
-    <h2>PORTFOLIO</h2>
+  <hr>
+  <section id="sectionPortfolio" class="container">
+  <h2>PORTFOLIO</h2>
+      <img src="assets/images/svg/star-black.svg" alt="star portfolio" />
+        <div id="images"></div>
+          <img src="assets/images/portfolio/cabin.png"/>
+          <img src="assets/images/portfolio/cake.png"/>
+          <img src="assets/images/portfolio/circus.png"/>
+          <img src="assets/images/portfolio/game.png"/>
+          <img src="assets/images/portfolio/safe.png"/>
+          <img src="assets/images/portfolio/submarine.png"/>
+        </div>
   </section>
-  <section>
+  <hr>
+  <section id="sectionAbout">
     <h2>ABOUT</h2>
     <p>
     Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
@@ -37,7 +49,8 @@
     Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
     </p>
   </section>
-  <section>
+  <hr>
+  <section id="sectionContact">
     <h2>CONTACT ME</h2>
     <form>
       <label>Name</label>
@@ -48,17 +61,39 @@
 
     </form>
   </section>
+  <hr>
   <section>
-    <footer>
-      <h3>LOCATION</h3>
-      <p>2215 John Daniel Drive </p>
-      <p>Clark, MO 65243</p>
-      <h3>AROUND THE WEB</h3>
-      <!--ICONES FB, G+, TWT,lkn,BOLA-->
-      <h3>ABOUT FREELANCER</h3>
-      <p>Freelance is a free to use, open source Bootstrap theme </p>
-      <p>created by <a href="https://startbootstrap.com/" target="_blank">Start Bootstrap</a>.</p>
-    </footer>
+    <footer id="foot">
+        <table>
+            <tr>
+              <th>LOCATION</th>
+              <th>AROUND THE WEB</th>
+              <th>ABOUT FREELANCER</th>
+            </tr>
+            <tr>
+              <td>2215 John Daniel Drive</td>
+              <td>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-dribbble-square"></i>
+              </td>
+              <td>Freelance is a free to use, open source Bootstrap</td>
+            </tr>
+            <tr>
+                <td>Clark, MO 65243</td>
+                <td>
+                  <i class="fab fa-dribbble-square"></i>
+                </td>
+                <td>themecreated by <a href="https://startbootstrap.com/" target="_blank">Start Bootstrap</a></td>
+              </tr>
+              </table>
+     </footer>
+    <hr>
+    <div id="copyrightYa" class="container">
+      <small>Copyright © Ya Oliveira Website 2019</small>
+    </div>
   </section>
 </body>
 </html>

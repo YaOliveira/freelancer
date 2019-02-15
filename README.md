@@ -31,7 +31,7 @@ O resultado, você poderá consultar no [**link do meu github page**](https://ya
 
 ## Considerações
 
-Como conseguir isso
+Como conseguir isso:
 
 * Utilização das tags semânticas do html5
 * Reponsividade
