@@ -1,15 +1,23 @@
-
+/*tudo*/
+ *{
+     margin: 0;
+ }
  .container{
     display: flex;
     width: 100vw;
     height: 100vh;
     
+    
 } 
  
+/*navbar */
 .navbarbg{
     background-color: #2C3E50;
     color: #ffffff;
-    font-weight: bold;
+    font-weight: 700;
+    flex-direction: row;
+    padding: 1rem;
+    text-align: center;
 }
 
 .navbarbg a{
@@ -22,33 +30,47 @@
 
 li{
     list-style: none;
+    display: inline;
 }
-body{
-    font-family: 'Lato', sans-serif;  
-}
-
 #menuInicial{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    line-height: 60px;
-    
+    line-height: 60px;    
 }
  .menuSecundario{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 30px;
-    
-}
-#welcome{
-   
+    flex-grow: 1;
     align-items: center;
+    flex-basis: auto;
+}
+/* CORPO */
+body{
+    font-family: 'Lato', sans-serif;  
+}
+
+#sectionAbout, #sectionPortfolio, #sectionContact, #foot{
+    padding: 5%;
+    text-align: center;
+}
+/*SEÇÃO BEM VINDO*/
+
+#welcome{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
     background-color:#18BC9C;
     color: #ffffff;
+    text-align: center;
 }
 
 h1{
     size: 95px;
     line-height: 80px;
+}
+h1, h2{
+    justify-content: center;
 }
 img{
     height: auto;
@@ -58,24 +80,36 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
+
+#sectionAbout{
+    
+    flex-direction: column;
+    background-color:#18BC9C;
+    color: #ffffff;
+    
+}
+/* RODAPÉ */
 #foot{
-    justify-content: center;
-    align-items: center;
+    display: flex;
     color: #ffffff;
     background-color: #2C3E50;
+    padding: 5%;
+    text-align: center;
+    justify-content: space-evenly;
 }
 #foot a{
     color:#18BC9C;
 }
+/* COPYRIGHT */
 #copyrightYa{
     background-color: #1A252F;
     color: #ffffff;
     font-size: 18px;
     line-height: 24px;
-    align-items: center;
-    
+    text-align: center;
 }
 
 
