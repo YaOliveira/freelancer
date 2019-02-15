@@ -25,6 +25,9 @@ Para completar este desafio, criei um repositório boilerplate (template inicial
 
 2. Em seguida **clonei** o fork em meu computador utilizando o comando `git clone`.
 
+## Resultado Obtido
+
+O resultado, você poderá consultar no [**link do meu github page**](https://yaoliveira.github.io/freelancer/)
 
 ## Considerações
 
