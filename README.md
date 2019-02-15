@@ -33,8 +33,7 @@ O resultado, você poderá consultar no [**link do meu github page**](https://ya
 
 Como conseguir isso
 
-* Utilização das tags semânticas html5
+* Utilização das tags semânticas do html5
 * Reponsividade
 * Utilização do flexbox
 
-*
