@@ -8,8 +8,10 @@
 
 **Completar o desafio de código "Freelancer"**
 
-##Objetivo
-O desafio era replicar o site do Freelancer (https://blackrockdigital.github.io/startbootstrap-freelancer/#page-top), este será o resultado para alcançar:
+## Objetivo
+
+O desafio era replicar o site do Freelancer (https://blackrockdigital.github.io/startbootstrap-freelancer/#page-top), este será o resultado que devo alcançar:
+
 ![Freelancer Website](https://github.com/YaOliveira/freelancer/blob/master/docs/fullpage.png)
 
 Para completar este desafio, criei um repositório boilerplate (template inicial) com todos os recursos necessários. Incluindo as imagens, estrutura de pastas e arquivos e a partir disso escrevi meu código.
@@ -18,34 +20,16 @@ Para completar este desafio, criei um repositório boilerplate (template inicial
 
 ## Fluxo de trabalho
 
-1. Faça um [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
+1. Fiz um [**fork**](https://github.com/rafaelbcerri/freelancer)
    deste repositório.
 
-2. Em seguida você deverá **clonar** esse fork em seu computador. Lembre-se do comando `git clone` e de sua estrutura, que normalmente é essa:
+2. Em seguida **clonei** o fork em meu computador utilizando o comando `git clone`.
 
-   ```bash
-   git clone https://github.com/<nome-de-usuario>/freelancer.git
-   ```
-
-## Objetivo
-
-O desafio consiste em replicar o site **Freelancer** e o resultado desejado é este:
-
-![Freelancer Website](docs/fullpage.png)
 
 ## Considerações
 
-* Encontrará um arquivo-base `index.html` no qual deverá escrever a estrutura de seu projeto e linkar seus arquivos de estilo(CSS).
-* Na pasta `css` terá um arquivo-base `main.css` onde você irá adicionar os estilos necessários em seu projeto.
-* Dentro da pasta `assets` se encontra a pasta `images` onde estão todas as imagens necessárias para completar seu projeto.
-
 * Você deverá **atualizar o arquivo `README.md`** explicando o conteúdo de seu repositório.
 
-* Esta página utiliza duas fontes: `Montserrat` e `Lato`.
-
-* A paleta de cores pode ser obtida inspecionando o site original, porém para pouparmos tempo você pode usar as seguintes: `#2c3e50`, `#18bc9c` e `#212529`.
-
-* Os ícones das redes sociais podem ser encontrados em [Font Awesome](http://fontawesome.io/).
 
 * Neste desafio, encontrará coisas que possivelmente ainda não viu em classe, como formulários. Não se preocupe, temos certeza que se sairá bem. Aqui ficam algumas dicas:
 
