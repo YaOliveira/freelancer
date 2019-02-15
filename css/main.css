@@ -1,14 +1,46 @@
 /*
- * Estilos de tu proyecto
-
-
-
- cores: #2c3e50, #18bc9c e #212529
+ 
+ cores: , #18bc9c e #212529
  */
- li{
-     list-style: none;
- }
+ 
+nav{
+    background-color: #2C3E50;
+    color: #ffffff;
+    font-weight: bold;
+  
+}
 
- h1{
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    flex-basis: auto;
+    
+}
+
+.container > li {
+    flex: 1;
+  }
+
+#menuInicial{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 60px;
+    
+}
+ .menuSecundario{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+li{
+    list-style: none;
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+ @import url('https://fonts.googleapis.com/css?family=Lato');
