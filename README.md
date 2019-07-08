@@ -1,8 +1,7 @@
 # Freelancer
 
 * **Track:** _Common Core_
-* **Curso:** _Criando um site interativo_
-* **Unidad:** _Layout da Web com HTML & CSS_
+* **Curso:** _Criando um site com flexbox_
 
 ***
 
